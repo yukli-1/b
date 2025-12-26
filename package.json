@@ -1,0 +1,54 @@
+{
+  "name": "vue-tech-blog",
+  "version": "1.0.0",
+  "description": "一个现代化的Vue.js技术博客",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "lint": "eslint . --ext .vue,.js,.jsx,.cjs,.mjs --fix --ignore-path .gitignore",
+    "format": "prettier --write src/",
+    "deploy": "./deploy.sh",
+    "deploy:windows": "deploy.bat",
+    "deploy:ps": "powershell -ExecutionPolicy Bypass -File deploy.ps1",
+    "deploy:quick": "npm run build && git add . && git commit -m \"🚀 Quick deploy\" && git push origin main"
+  },
+  "dependencies": {
+    "axios": "^1.13.2",
+    "element-plus": "^2.13.0",
+    "highlight.js": "^11.11.1",
+    "pinia": "^3.0.4",
+    "sass": "^1.97.1",
+    "sass-loader": "^16.0.6",
+    "vue": "^3.5.24",
+    "vue-markdown-editor": "^0.2.0",
+    "vue-router": "^4.6.4"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^6.0.1",
+    "vite": "npm:rolldown-vite@7.2.5",
+    "eslint": "^8.57.0",
+    "eslint-plugin-vue": "^9.20.1",
+    "prettier": "^3.2.5"
+  },
+  "overrides": {
+    "vite": "npm:rolldown-vite@7.2.5"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/your-username/vue-tech-blog.git"
+  },
+  "keywords": [
+    "vue3",
+    "blog",
+    "portfolio",
+    "frontend",
+    "javascript",
+    "vite",
+    "pinia"
+  ],
+  "author": "Your Name",
+  "license": "MIT",
+  "homepage": "https://your-username.github.io/vue-tech-blog"
+}

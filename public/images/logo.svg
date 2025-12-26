@@ -1,0 +1,21 @@
+<svg width="200" height="60" viewBox="0 0 200 60" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="logoGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#409EFF;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#66b1ff;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  
+  <!-- 图标部分 -->
+  <circle cx="30" cy="30" r="25" fill="url(#logoGrad)" opacity="0.8"/>
+  <text x="30" y="38" text-anchor="middle" fill="white" font-family="monospace" font-size="24" font-weight="bold">B</text>
+  
+  <!-- 文字部分 -->
+  <text x="65" y="25" fill="white" font-family="Arial, sans-serif" font-size="16" font-weight="600">我的技术博客</text>
+  <text x="65" y="42" fill="white" font-family="Arial, sans-serif" font-size="10" opacity="0.8">TECH BLOG</text>
+  
+  <!-- 装饰 -->
+  <circle cx="170" cy="30" r="3" fill="white" opacity="0.6"/>
+  <circle cx="180" cy="30" r="3" fill="white" opacity="0.6"/>
+  <circle cx="190" cy="30" r="3" fill="white" opacity="0.6"/>
+</svg>
